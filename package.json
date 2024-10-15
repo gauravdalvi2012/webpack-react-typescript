@@ -14,5 +14,14 @@
   "files": [
     "index.js",
     "template/**"
+  ],
+  "keywords": [
+    "cli",
+    "webpack",
+    "react",
+    "typescript",
+    "project generator",
+    "npm",
+    "development"
   ]
 }
