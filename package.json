@@ -1,6 +1,6 @@
 {
   "name": "@gauravdalvi/webpack-react-typescript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI to generate a Webpack React TypeScript Project",
   "main": "index.js",
   "bin": {
@@ -23,5 +23,9 @@
     "project generator",
     "npm",
     "development"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gauravdalvi2012/webpack-react-typescript.git"
+  }
 }
