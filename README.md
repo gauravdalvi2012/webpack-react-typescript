@@ -16,9 +16,16 @@ A CLI tool to generate a simple Webpack React TypeScript project setup. This pro
 To create a new Webpack React TypeScript project, you can directly use `npx` without installing the tool globally:
 
 ```bash
-npx @gauravdalvi/webpack-react-typescript <project-name>
+npx @gauravdalvi/webpack-react-typescript@latest <project-name>
 ```
 This will create a new folder with the specified name and initialize the project with a complete Webpack, React, and TypeScript setup.
+
+## Install Dependencies
+Inside your generated project, run the following command to install dependencies:
+
+```bash
+npm install
+```
 
 ## Start the Development Server
 Inside your generated project, run the following command to start the development server:

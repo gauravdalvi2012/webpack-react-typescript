@@ -26,12 +26,5 @@ try {
 console.log("Copying the project template...");
 fs.copySync(path.join(__dirname, "template"), projectPath);
 
-// Change to the new project directory
-process.chdir(projectPath);
-
-// Install dependencies
-console.log("Installing dependencies...");
-execSync("npm install", { stdio: "inherit" });
-
 console.log("Project setup complete!");
-console.log(`\nRun the following commands to get started:\n\ncd ${projectName}\nnpm start`);
+console.log(`\nRun the following commands to get started:\n\ncd ${projectName}\nnpm install\nnpm start`);
