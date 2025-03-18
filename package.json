@@ -1,6 +1,6 @@
 {
   "name": "@gauravdalvi/webpack-react-typescript",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI to generate a Webpack React TypeScript Project",
   "main": "index.js",
   "bin": {
